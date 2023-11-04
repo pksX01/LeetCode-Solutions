@@ -18,7 +18,6 @@ def findMaxConsecutiveOnes(nums):
 
 def main():
     nums = list(map(int, input().split()))
-    #print(type(nums), end='\n')
     print(findMaxConsecutiveOnes(nums))
 
 
