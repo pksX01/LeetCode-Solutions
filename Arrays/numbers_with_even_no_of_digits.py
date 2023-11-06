@@ -5,12 +5,10 @@ class Solution:
         count = 0
         for num in nums:
             numOfDigits = 0
-            while (num // 10) > 0:
+            while num > 0:
                 numOfDigits += 1
                 num //= 10
-            numOfDigits += 1
             if numOfDigits % 2 == 0:
-                print('Number is: ', num)
                 count += 1
         return count
 
